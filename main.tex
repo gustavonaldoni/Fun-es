@@ -1,0 +1,55 @@
+\documentclass[14pt, aspectratio=169]{beamer}
+
+\usetheme{Copenhagen}
+\setbeamertemplate{navigation symbols}{} % Esconde as barras de navegação inferiores
+\setbeamercovered{transparent}
+\setbeamertemplate{headline}{} % Esconde a barra de navegação no topo do documento, relativa às seções
+\setbeamertemplate{caption}[numbered] % Coloca os números nas figuras
+
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\I}{\mathbb{I}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\N}{\mathbb{N}}
+
+\newcommand{\conj}[1]{\left\{ #1 \right\}}
+\newcommand{\skipframe}{\vspace{10.0cm}}
+\newcommand{\parenthesis}[1]{\left( #1 \right)}
+
+\newtheorem{theo}{Teorema}
+\newtheorem{ex}{Exemplo}
+
+\input{pacotes.tex}
+
+\title{Funções}
+\subtitle{Pré-cálculo}
+\author{Prof. Dr. Márcio Leandro Gonçalves}
+\date{\today}
+\institute{PUC Minas - Poços de Caldas}
+
+\begin{document}
+
+\begin{frame}
+\maketitle 
+\end{frame}
+
+\begin{frame}{Sumário}
+    \begin{multicols}{2}
+        \tableofcontents
+    \end{multicols}
+\end{frame}
+
+\input{secoes/01-conceitosIniciais}
+\input{secoes/02-translacao}
+\input{secoes/03-funcoesCompostas}
+\input{secoes/04-funcoesSobrejetorasInjetorasEBijetoras}
+\input{secoes/05-funcoesInversas}
+\input{secoes/06-funcoesPolinomiais}
+\input{secoes/07-funcoesRacionais}
+\input{secoes/08-funcoesAlgebricas}
+\input{secoes/09-funcoesTranscendentais}
+\input{secoes/10-exercicios}
+\input{secoes/11-respostas}
+
+\end{document}
